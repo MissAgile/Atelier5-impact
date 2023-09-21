@@ -10,7 +10,7 @@
 body {
     margin: 0%;
     padding: 0%;
-    font-family: verdane;
+    font-family: verdana;
 }
 .container_content{
     background-color: var(--bg_color_content);
@@ -133,10 +133,21 @@ body {
 
 /* Medias queries */
 
-/* @media screen and (min-width: 780px){
-.card_content{
+@media screen and (max-width: 768px){
+    .grid_container_content{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap; 
+        grid-template-columns: repeat(1, 15%);
+        /* flex-wrap: wrap;  */
+        }
+    .pagination{
+        display: flex;
+        flex-direction: row;
+        margin-left: 250px;
+        margin-bottom: 10px;
     }
-} */
+    .pagination .two{
+        margin-left: 10px;
+    }
+
+}

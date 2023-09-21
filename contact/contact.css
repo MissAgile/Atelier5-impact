@@ -4,11 +4,13 @@
     --card_color : #009282;
     --white_color : white;
     --fond_icons : #33A89B;
+    --bg_body: #FAFAFA;
 }
 body{
     margin: 0%;
     padding: 0%;
     font-family: verdane;
+    background-color: var(--bg_body);
 }
 .contact_title{
     text-align: center;
@@ -27,38 +29,42 @@ body{
 .grid-container{
     display:grid;
     grid-template-columns: 3fr 5fr;
-    border: 1px solid black;
-    gap: 2px;
     margin-top: 20px;
     border-radius: 5px;
 }
 .left{
     background-color: var(--color_primaire);
+    border: 1px solid var(--color_primaire);
+    /* border-right: none; */
+    border-radius: 5px;
 }
 .card{
     background-color: var(--card_color);
     border: 1px solid var(--card_color);
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
-    margin: 15px;
+    margin: 20px;
     padding: 10px;
     color: var(--white_color);
 }
 .icons{
-    padding-top: 15px;
+    padding-top: 8px;
     padding-left: 10px;
     height: 40px;
     background-color: var(--fond_icons);
     width: 10%;
-    border-radius: 30px;
+    border-radius: 50px;
 }
 .text{
     margin-left: 20px;
 } 
 
 /* Section right formulaire */
-
+.right{
+    border: 3px solid var(--white_color);
+    background-color: var(--white_color);
+    border-radius: 5px;
+}
 .formulaire{
     margin: 30px ;
 }

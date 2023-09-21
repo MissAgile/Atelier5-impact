@@ -75,3 +75,25 @@ menu li a:hover{
     font-weight: bold;
 }
 
+
+/*Medias queries */
+@media screen and (min-width: 768px){
+    
+    .ma_banniere{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .contact_header, .reseau_sociaux_header{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .mon_navbar{
+        display: flex;
+        flex-direction: column;
+        margin-right: 50px;
+    }
+}

@@ -6,15 +6,17 @@
     --fond_icons: #33A89B;
 }
 
-body {
+body{
     margin: 0%;
     padding: 0%;
-    font-family: verdane;
+    font-family: verdana;
+    box-sizing: border-box;
 }
 .container_footer{
     background-color: var(--color_primaire);
     width: 100%;
-    margin: 10px;
+    margin : 0 10px 0 0;
+    /* overflow: hidden; */
 }
 .grid_container_footer {
     display: grid;
@@ -22,6 +24,7 @@ body {
     gap: 5px;
     padding: 20px;
     color: var(--white_color);
+    box-sizing: border-box;
 }
 .impact h1{
     font-weight: bold;
@@ -63,3 +66,13 @@ body {
 .copyright span{
     font-weight: bold;
 }
+
+/*Medias Queries pour le footer*/
+@media screen and (max-width: 768px){
+    .grid_container_footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+    
