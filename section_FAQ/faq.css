@@ -34,20 +34,18 @@
     display: flex;
     align-items: center;
     flex-direction:row;
-    
-   
-text-align: center;
+    text-align: center;
 }
 .carte h5{
     display: flex;
     align-items: center;
 }
 i{
-    margin-left: 130px;
+    margin-left: 100px;
 }
 .carte h5 p{
-    margin-left: 8px;
-    font-size: 12px;
+    margin-left: 4px;
+    font-size: 10px;
 }
 .carte h5 span{
     color: #008374;
