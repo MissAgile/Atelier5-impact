@@ -1,0 +1,80 @@
+:root{
+    --color_primaire : #008374;
+    --text_color : #E8DFD0;
+    --card_color : #009282;
+    --white_color : white;
+    --fond_icons : #33A89B;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: verdane;
+}
+.contact_title{
+    text-align: center;
+}
+.contact_title h2{
+    margin-top: 20px;
+    font-weight: 900;
+}
+.contact_title .trait_vert{
+    width: 50px;
+    margin-left: 540px;
+    border-color: var(--color_primaire);
+    border-width: 2px;
+    border-style: solid;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: 3fr 5fr;
+    border: 1px solid black;
+    gap: 2px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.left{
+    background-color: var(--color_primaire);
+}
+.card{
+    background-color: var(--card_color);
+    border: 1px solid var(--card_color);
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    margin: 15px;
+    padding: 10px;
+    color: var(--white_color);
+}
+.icons{
+    padding-top: 15px;
+    padding-left: 10px;
+    height: 40px;
+    background-color: var(--fond_icons);
+    width: 10%;
+    border-radius: 30px;
+}
+.text{
+    margin-left: 20px;
+} 
+
+/* Section right formulaire */
+
+.formulaire{
+    margin: 30px ;
+}
+.formulaire .input_text_mail{
+    width: 310px;
+}
+.formulaire .subject, textarea{
+    width: 625px;
+}
+.my_button{
+    margin-left: 250px;
+    color: var(--white_color);
+    background-color: var(--color_primaire);
+    border: 1px solid var(--color_primaire);
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
