@@ -1,0 +1,77 @@
+*{
+    font-family: 'helvetica';
+}
+.containerGeneral{
+    /* border: 1px solid green; */
+    height: 600px;
+    background-color: #f6f6f6;
+}
+.container{
+    margin-top: 5%;
+}
+hr{
+    width: 3%;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: #008374;
+}
+h3{
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 2%;
+}
+.headteam{
+    display: flex;
+    align-items: center;
+    color: grey;
+    margin-top: 2%;
+    justify-content: center;
+}
+.card{
+    border: none;
+    width: 25%;
+    box-shadow: 2px 5px 5px rgb(216, 212, 212);
+    background-color: white;
+    margin: 10px -100px;
+    /* padding: 10px; */
+    
+}
+.cardimage img{
+    width: 100%;
+}
+.cardtitle span{
+    color: grey;
+    display: flex;
+    justify-content: start;
+    margin-left: 9%;
+    margin-top: 5%;
+}
+.cardtitle h3{
+    margin-right: 25%;
+    width: 75%;
+}
+.cardpost{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 8%;
+    margin-bottom: 8%;
+}
+.carddatepub span{
+    font-weight: bold;
+    font-size: 16px;
+}
+.carddatepub{
+    font-size: 12px;
+    margin-top: 2%;
+    margin-left: 5%;
+
+}
+.cardcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    margin: 10px;
+    padding: 10px;
+}
+

@@ -1,0 +1,57 @@
+*{
+    font-family: 'helvetica';
+}
+.container{
+    display: flex;
+    margin: 10%;
+    /* border: 1px solid green; */
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px rgb(237, 229, 229);
+}
+.text{
+    margin-left: 7%;
+}
+.text p{
+    color: darkgray;
+}
+.faq{
+    /* border: 1px solid green; */
+    margin: 0 auto;
+    width: 40%;
+    padding: 20px;
+}
+.carte{
+    border: none;
+    /* margin-bottom: 10px; */
+    height: 40px;
+    padding: 10px;
+    /* display: flex; */
+    justify-content: center;
+    box-shadow: 1px 2px 1px 2px rgb(244, 238, 238);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    
+   
+text-align: center;
+}
+.carte h5{
+    display: flex;
+    align-items: center;
+}
+i{
+    margin-left: 130px;
+}
+.carte h5 p{
+    margin-left: 8px;
+    font-size: 12px;
+}
+.carte h5 span{
+    color: #008374;
+}
+.text span{
+    font-size: 30px;
+}
