@@ -21,7 +21,7 @@ body{
 }
 .contact_title .trait_vert{
     width: 50px;
-    margin-left: 540px;
+    margin-left: 630px;
     border-color: var(--color_primaire);
     border-width: 2px;
     border-style: solid;
@@ -82,5 +82,19 @@ body{
     padding: 5px 15px;
     border-radius: 20px;
     margin-top: 20px;
+}
+/* Medias queries */
+@media screen and (max-width: 768px) {
+    .contact_title{
+        width: 100%;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+        margin: 10px auto;
+    }
+
 }
 
