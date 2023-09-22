@@ -1,12 +1,10 @@
-.container{
+.Price{
     display: flex;
     justify-content: center;
     margin-top: 80px;
     background-color: #f6f6f6;
     height: 600px;
     /* border: 1px solid green; */
-    
-
 }
 .plan1{
     border: none;
@@ -20,28 +18,30 @@
     display: grid;
     justify-content: center;
 }
-.circle1 img{
+.Price h3{
+    margin-left: 30%;
+    color: darkgray;
+    margin-top: 20px;
+}
+
+.plan1 .circle1 img{
   margin-left: 35%;
   width: 35%;
   
 }
 
-.circle2 img{
+.plan1 .circle2 img{
     margin-left: 25%;
     width: 45%;
     /* display: inline-block; */
     /* justify-content: center; */
 }
-.circle3 img{
+.plan1 .circle3 img{
     margin-left: 30%;
     width: 35%;
     
 }
-h3{
-    margin-left: 30%;
-    color: darkgray;
-    margin-top: 20px;
-}
+
 .text1{
     text-align: center;
     /* margin-top: -20px; */
@@ -60,12 +60,11 @@ h3{
     margin-top: -20%;
     margin-left: 35%;
     font-size: 18px;
-    
+    color: darkgray;  
 }
-p{
-    color: darkgray;
-}
-span{
+
+   
+.price span{
     color: darkgray;
 }
 button{

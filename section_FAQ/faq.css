@@ -1,7 +1,7 @@
 *{
     font-family: 'helvetica';
 }
-.container{
+.Questions{
     display: flex;
     margin: 10%;
     /* border: 1px solid green; */
@@ -12,6 +12,9 @@
 }
 .text{
     margin-left: 7%;
+}
+.text span{
+    font-size: 30px;
 }
 .text p{
     color: darkgray;
@@ -40,7 +43,7 @@
     display: flex;
     align-items: center;
 }
-i{
+.carte h5 i{
     margin-left: 100px;
 }
 .carte h5 p{
@@ -49,7 +52,4 @@ i{
 }
 .carte h5 span{
     color: #008374;
-}
-.text span{
-    font-size: 30px;
 }
